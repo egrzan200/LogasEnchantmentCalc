@@ -91,9 +91,13 @@
             this.restartbtn = new System.Windows.Forms.Button();
             this.Level5 = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Enchantment = new System.Windows.Forms.RadioButton();
-            this.AdvEnchantment = new System.Windows.Forms.RadioButton();
             this.ExalEnchantment = new System.Windows.Forms.RadioButton();
+            this.AdvEnchantment = new System.Windows.Forms.RadioButton();
+            this.Enchantment = new System.Windows.Forms.RadioButton();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.QuantityPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -431,7 +435,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(548, 581);
+            this.label11.Location = new System.Drawing.Point(650, 581);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(72, 16);
             this.label11.TabIndex = 44;
@@ -445,7 +449,7 @@
             "",
             "Confers Quality on Wearer/Owner/User",
             "Confers Power on Wearer/Owner/User"});
-            this.selectPower8.Location = new System.Drawing.Point(548, 601);
+            this.selectPower8.Location = new System.Drawing.Point(650, 601);
             this.selectPower8.Name = "selectPower8";
             this.selectPower8.Size = new System.Drawing.Size(266, 25);
             this.selectPower8.TabIndex = 43;
@@ -455,7 +459,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(548, 477);
+            this.label12.Location = new System.Drawing.Point(650, 477);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(82, 16);
             this.label12.TabIndex = 42;
@@ -470,7 +474,7 @@
             "Capable of Hanging a Spell",
             "Capable of Hanging Named & Numbered Spells",
             "Capable of Hanging and Using Spells"});
-            this.selectPower7.Location = new System.Drawing.Point(548, 497);
+            this.selectPower7.Location = new System.Drawing.Point(650, 497);
             this.selectPower7.Name = "selectPower7";
             this.selectPower7.Size = new System.Drawing.Size(266, 25);
             this.selectPower7.TabIndex = 41;
@@ -480,7 +484,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(548, 421);
+            this.label13.Location = new System.Drawing.Point(650, 421);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(74, 16);
             this.label13.TabIndex = 40;
@@ -494,7 +498,7 @@
             "",
             "Contains a Cantrip",
             "Contains Named and Numbered Cantrips"});
-            this.selectPower6.Location = new System.Drawing.Point(548, 441);
+            this.selectPower6.Location = new System.Drawing.Point(650, 441);
             this.selectPower6.Name = "selectPower6";
             this.selectPower6.Size = new System.Drawing.Size(266, 25);
             this.selectPower6.TabIndex = 39;
@@ -504,7 +508,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(548, 373);
+            this.label14.Location = new System.Drawing.Point(650, 373);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(72, 16);
             this.label14.TabIndex = 38;
@@ -519,7 +523,7 @@
             "True Name Is Known",
             "True Name Is Warded",
             "True Name Is Secret "});
-            this.selectPower5.Location = new System.Drawing.Point(548, 393);
+            this.selectPower5.Location = new System.Drawing.Point(650, 393);
             this.selectPower5.Name = "selectPower5";
             this.selectPower5.Size = new System.Drawing.Size(266, 25);
             this.selectPower5.TabIndex = 37;
@@ -529,7 +533,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(548, 321);
+            this.label15.Location = new System.Drawing.Point(650, 321);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(104, 16);
             this.label15.TabIndex = 36;
@@ -543,7 +547,7 @@
             "",
             "Contains an Icon",
             "Set of Icons"});
-            this.selectPower4.Location = new System.Drawing.Point(548, 341);
+            this.selectPower4.Location = new System.Drawing.Point(650, 341);
             this.selectPower4.Name = "selectPower4";
             this.selectPower4.Size = new System.Drawing.Size(266, 25);
             this.selectPower4.TabIndex = 35;
@@ -553,7 +557,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(548, 269);
+            this.label16.Location = new System.Drawing.Point(650, 269);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(89, 16);
             this.label16.TabIndex = 34;
@@ -563,7 +567,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(548, 216);
+            this.label17.Location = new System.Drawing.Point(650, 216);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(49, 16);
             this.label17.TabIndex = 33;
@@ -574,7 +578,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(548, 529);
+            this.label18.Location = new System.Drawing.Point(650, 529);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(169, 16);
             this.label18.TabIndex = 32;
@@ -584,7 +588,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(548, 164);
+            this.label19.Location = new System.Drawing.Point(650, 164);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(178, 16);
             this.label19.TabIndex = 31;
@@ -599,7 +603,7 @@
             "Alternate Form",
             "Named and Numbered Alternate Forms",
             "Limited Shape-Shift"});
-            this.selectPower3.Location = new System.Drawing.Point(548, 289);
+            this.selectPower3.Location = new System.Drawing.Point(650, 289);
             this.selectPower3.Name = "selectPower3";
             this.selectPower3.Size = new System.Drawing.Size(266, 25);
             this.selectPower3.TabIndex = 30;
@@ -614,7 +618,7 @@
             "Self Healing",
             "Rapid Healing",
             "Regeneration"});
-            this.selectPower2.Location = new System.Drawing.Point(548, 236);
+            this.selectPower2.Location = new System.Drawing.Point(650, 236);
             this.selectPower2.Name = "selectPower2";
             this.selectPower2.Size = new System.Drawing.Size(266, 25);
             this.selectPower2.TabIndex = 29;
@@ -629,7 +633,7 @@
             "Mold Gossamer Matter",
             "Mold Gossamer Creatures",
             "Mold Gossamer Reality"});
-            this.selectPower9.Location = new System.Drawing.Point(548, 549);
+            this.selectPower9.Location = new System.Drawing.Point(650, 549);
             this.selectPower9.Name = "selectPower9";
             this.selectPower9.Size = new System.Drawing.Size(266, 25);
             this.selectPower9.TabIndex = 28;
@@ -639,7 +643,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(544, 129);
+            this.label20.Location = new System.Drawing.Point(646, 129);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(89, 27);
             this.label20.TabIndex = 27;
@@ -654,7 +658,7 @@
             "Pass through Door",
             "Follow Path",
             "Search Through Worlds"});
-            this.selectPower1.Location = new System.Drawing.Point(548, 184);
+            this.selectPower1.Location = new System.Drawing.Point(650, 184);
             this.selectPower1.Name = "selectPower1";
             this.selectPower1.Size = new System.Drawing.Size(266, 25);
             this.selectPower1.TabIndex = 26;
@@ -664,7 +668,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(-4, 10);
+            this.label21.Location = new System.Drawing.Point(14, 13);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(102, 27);
             this.label21.TabIndex = 45;
@@ -699,7 +703,7 @@
             // 
             this.QuantityRadio4.AutoSize = true;
             this.QuantityRadio4.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantityRadio4.Location = new System.Drawing.Point(3, 183);
+            this.QuantityRadio4.Location = new System.Drawing.Point(21, 186);
             this.QuantityRadio4.Name = "QuantityRadio4";
             this.QuantityRadio4.Size = new System.Drawing.Size(110, 21);
             this.QuantityRadio4.TabIndex = 58;
@@ -711,7 +715,7 @@
             // 
             this.QuantityRadio3.AutoSize = true;
             this.QuantityRadio3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantityRadio3.Location = new System.Drawing.Point(3, 137);
+            this.QuantityRadio3.Location = new System.Drawing.Point(21, 140);
             this.QuantityRadio3.Name = "QuantityRadio3";
             this.QuantityRadio3.Size = new System.Drawing.Size(84, 21);
             this.QuantityRadio3.TabIndex = 57;
@@ -723,7 +727,7 @@
             // 
             this.QuantityRadio5.AutoSize = true;
             this.QuantityRadio5.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantityRadio5.Location = new System.Drawing.Point(3, 230);
+            this.QuantityRadio5.Location = new System.Drawing.Point(21, 233);
             this.QuantityRadio5.Name = "QuantityRadio5";
             this.QuantityRadio5.Size = new System.Drawing.Size(183, 21);
             this.QuantityRadio5.TabIndex = 59;
@@ -735,7 +739,7 @@
             // 
             this.QuantityRadio2.AutoSize = true;
             this.QuantityRadio2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantityRadio2.Location = new System.Drawing.Point(3, 90);
+            this.QuantityRadio2.Location = new System.Drawing.Point(21, 93);
             this.QuantityRadio2.Name = "QuantityRadio2";
             this.QuantityRadio2.Size = new System.Drawing.Size(181, 21);
             this.QuantityRadio2.TabIndex = 56;
@@ -747,7 +751,7 @@
             // 
             this.QuantityRadio6.AutoSize = true;
             this.QuantityRadio6.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantityRadio6.Location = new System.Drawing.Point(1, 278);
+            this.QuantityRadio6.Location = new System.Drawing.Point(19, 281);
             this.QuantityRadio6.Name = "QuantityRadio6";
             this.QuantityRadio6.Size = new System.Drawing.Size(109, 21);
             this.QuantityRadio6.TabIndex = 60;
@@ -765,9 +769,9 @@
             this.QuantityPanel.Controls.Add(this.QuantityRadio3);
             this.QuantityPanel.Controls.Add(this.QuantityRadio4);
             this.QuantityPanel.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantityPanel.Location = new System.Drawing.Point(316, 164);
+            this.QuantityPanel.Location = new System.Drawing.Point(298, 137);
             this.QuantityPanel.Name = "QuantityPanel";
-            this.QuantityPanel.Size = new System.Drawing.Size(213, 393);
+            this.QuantityPanel.Size = new System.Drawing.Size(333, 329);
             this.QuantityPanel.TabIndex = 55;
             // 
             // QuantityRadio1
@@ -775,7 +779,7 @@
             this.QuantityRadio1.AutoSize = true;
             this.QuantityRadio1.Checked = true;
             this.QuantityRadio1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuantityRadio1.Location = new System.Drawing.Point(1, 50);
+            this.QuantityRadio1.Location = new System.Drawing.Point(19, 53);
             this.QuantityRadio1.Name = "QuantityRadio1";
             this.QuantityRadio1.Size = new System.Drawing.Size(89, 21);
             this.QuantityRadio1.TabIndex = 61;
@@ -806,7 +810,7 @@
             // 
             // additionalControl
             // 
-            this.additionalControl.Location = new System.Drawing.Point(820, 549);
+            this.additionalControl.Location = new System.Drawing.Point(922, 549);
             this.additionalControl.Name = "additionalControl";
             this.additionalControl.Size = new System.Drawing.Size(30, 25);
             this.additionalControl.TabIndex = 58;
@@ -816,7 +820,7 @@
             // 
             // additionalTransferal
             // 
-            this.additionalTransferal.Location = new System.Drawing.Point(820, 601);
+            this.additionalTransferal.Location = new System.Drawing.Point(922, 601);
             this.additionalTransferal.Name = "additionalTransferal";
             this.additionalTransferal.Size = new System.Drawing.Size(30, 25);
             this.additionalTransferal.TabIndex = 59;
@@ -826,7 +830,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(548, 655);
+            this.button1.Location = new System.Drawing.Point(650, 655);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(300, 44);
             this.button1.TabIndex = 60;
@@ -836,9 +840,9 @@
             // 
             // restartbtn
             // 
-            this.restartbtn.Location = new System.Drawing.Point(317, 601);
+            this.restartbtn.Location = new System.Drawing.Point(316, 472);
             this.restartbtn.Name = "restartbtn";
-            this.restartbtn.Size = new System.Drawing.Size(212, 38);
+            this.restartbtn.Size = new System.Drawing.Size(315, 38);
             this.restartbtn.TabIndex = 61;
             this.restartbtn.Text = "Restart";
             this.restartbtn.UseVisualStyleBackColor = true;
@@ -867,6 +871,28 @@
             this.panel1.Size = new System.Drawing.Size(613, 39);
             this.panel1.TabIndex = 63;
             // 
+            // ExalEnchantment
+            // 
+            this.ExalEnchantment.AutoSize = true;
+            this.ExalEnchantment.Location = new System.Drawing.Point(415, 15);
+            this.ExalEnchantment.Name = "ExalEnchantment";
+            this.ExalEnchantment.Size = new System.Drawing.Size(162, 21);
+            this.ExalEnchantment.TabIndex = 2;
+            this.ExalEnchantment.Text = "Exalted Enchantment";
+            this.ExalEnchantment.UseVisualStyleBackColor = true;
+            this.ExalEnchantment.CheckedChanged += new System.EventHandler(this.ExalEnchantment_CheckedChanged);
+            // 
+            // AdvEnchantment
+            // 
+            this.AdvEnchantment.AutoSize = true;
+            this.AdvEnchantment.Location = new System.Drawing.Point(183, 15);
+            this.AdvEnchantment.Name = "AdvEnchantment";
+            this.AdvEnchantment.Size = new System.Drawing.Size(179, 21);
+            this.AdvEnchantment.TabIndex = 1;
+            this.AdvEnchantment.Text = "Advanced Enchantment";
+            this.AdvEnchantment.UseVisualStyleBackColor = true;
+            this.AdvEnchantment.CheckedChanged += new System.EventHandler(this.AdvEnchantment_CheckedChanged);
+            // 
             // Enchantment
             // 
             this.Enchantment.AutoSize = true;
@@ -880,33 +906,66 @@
             this.Enchantment.UseVisualStyleBackColor = true;
             this.Enchantment.CheckedChanged += new System.EventHandler(this.Enchantment_CheckedChanged);
             // 
-            // AdvEnchantment
+            // comboBox1
             // 
-            this.AdvEnchantment.AutoSize = true;
-            this.AdvEnchantment.Location = new System.Drawing.Point(183, 15);
-            this.AdvEnchantment.Name = "AdvEnchantment";
-            this.AdvEnchantment.Size = new System.Drawing.Size(179, 21);
-            this.AdvEnchantment.TabIndex = 1;
-            this.AdvEnchantment.Text = "Advanced Enchantment";
-            this.AdvEnchantment.UseVisualStyleBackColor = true;
-            this.AdvEnchantment.CheckedChanged += new System.EventHandler(this.AdvEnchantment_CheckedChanged);
+            this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "",
+            "Connected to Power",
+            "Linked to Power",
+            "Integral to Power"});
+            this.comboBox1.Location = new System.Drawing.Point(316, 549);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(315, 25);
+            this.comboBox1.TabIndex = 64;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // ExalEnchantment
+            // label24
             // 
-            this.ExalEnchantment.AutoSize = true;
-            this.ExalEnchantment.Location = new System.Drawing.Point(415, 15);
-            this.ExalEnchantment.Name = "ExalEnchantment";
-            this.ExalEnchantment.Size = new System.Drawing.Size(162, 21);
-            this.ExalEnchantment.TabIndex = 2;
-            this.ExalEnchantment.Text = "Exalted Enchantment";
-            this.ExalEnchantment.UseVisualStyleBackColor = true;
-            this.ExalEnchantment.CheckedChanged += new System.EventHandler(this.ExalEnchantment_CheckedChanged);
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(313, 530);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(245, 16);
+            this.label24.TabIndex = 65;
+            this.label24.Text = "Is an item linked to Enchantment present?";
+            this.label24.Click += new System.EventHandler(this.label24_Click);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(313, 582);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(134, 16);
+            this.label25.TabIndex = 67;
+            this.label25.Text = "Unconventional Ability";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "",
+            "Minor",
+            "Significant",
+            "Major"});
+            this.comboBox2.Location = new System.Drawing.Point(316, 601);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(315, 25);
+            this.comboBox2.TabIndex = 66;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 711);
+            this.ClientSize = new System.Drawing.Size(960, 714);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Level5);
             this.Controls.Add(this.restartbtn);
@@ -965,6 +1024,7 @@
             this.Controls.Add(this.QuantityPanel);
             this.Name = "Form1";
             this.Text = "Enchantment Time Calculator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.QuantityPanel.ResumeLayout(false);
             this.QuantityPanel.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -1042,6 +1102,10 @@
         private System.Windows.Forms.RadioButton ExalEnchantment;
         private System.Windows.Forms.RadioButton AdvEnchantment;
         private System.Windows.Forms.RadioButton Enchantment;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }
 

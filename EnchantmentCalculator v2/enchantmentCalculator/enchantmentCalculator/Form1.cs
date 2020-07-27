@@ -21,7 +21,7 @@ namespace enchantmentCalculator
         public int timeQuality;
         public int timePower;
         public int[] selectedQuality = new int[9];
-        public int[] selectedPower = new int[10];
+        public int[] selectedPower = new int[11];
         public int additionalPoints;
 
         public Form1()
@@ -134,9 +134,28 @@ namespace enchantmentCalculator
             time = (qualityTime + powerTime);
             time = ((time * enchantmentMultiplier) * quantityMultiplier);
 
-            int days = (time / 1440);
-            int hours = ((time % 1440) / 60);
-            int mins = time % 60;
+            int itemTime = time;
+
+           if(comboBox1.SelectedIndex == 0)
+            {
+                itemTime = time;
+            }
+            else if(comboBox1.SelectedIndex == 1)
+            {
+                itemTime = (int)(time * 0.90);
+            }
+            else if(comboBox1.SelectedIndex == 2)
+            {
+                itemTime = (int)(time * 0.75);
+            }
+            else
+            {
+                itemTime = (int)(time * 0.50);
+            }
+
+            int days = (itemTime / 1440);
+            int hours = ((itemTime % 1440) / 60);
+            int mins = (itemTime % 60);
 
             timeTextBox.Text = "Prep time: " + prepTime + " || Work time: " + days + " Days " + hours + " Hours " + mins + " Minutes ";
         }
@@ -766,6 +785,9 @@ namespace enchantmentCalculator
             selectQuality8.SelectedIndex = 0;
             selectQuality9.SelectedIndex = 0;
 
+            comboBox1.SelectedIndex = 0;
+            comboBox2.SelectedIndex = 0;
+
             ShapeMaterial.Checked = true;
             QuantityRadio1.Checked = true;
         }
@@ -838,6 +860,34 @@ namespace enchantmentCalculator
                 }
                 updateTime();
             }
+        }
+
+        private void label24_Click(object sender, EventArgs e){}
+
+        private void Form1_Load(object sender, EventArgs e) { }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e){ updateTime(); }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox2.SelectedIndex == 0)
+            {
+                selectedPower[10] = 0;
+            }
+            else if (comboBox2.SelectedIndex == 1)
+            {
+                selectedPower[10] = 1;
+            }
+            else if (comboBox2.SelectedIndex == 2)
+            {
+                selectedPower[10] = 2;
+            }
+            else if (comboBox2.SelectedIndex == 3)
+            {
+                selectedPower[10] = 4;
+            }
+
+            updateTime();
         }
     }
 }
