@@ -77,12 +77,7 @@ namespace enchantmentCalculator
                 QuantityPanel.Enabled = true;
                 updateTime();
             }
-            else if (!ShapeMaterial.Checked)
-            {
-                QuantityRadio1.Checked = true;
-                QuantityPanel.Enabled = false;
-                updateTime();
-            }
+            
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e) 
         {
@@ -109,12 +104,7 @@ namespace enchantmentCalculator
                 QuantityPanel.Enabled = true;
                 updateTime();
             }
-            else if(!Empowerment.Checked)
-            {
-                QuantityRadio1.Checked = true;
-                QuantityPanel.Enabled = false;
-                updateTime();
-            }
+           
         }
 
         private void updateTime()
